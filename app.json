@@ -1,0 +1,47 @@
+{
+    "name": "Save restricted content bot",
+    "description": "Telegram bot to save restricted content.",
+    "logo": "",
+    "keywords": [
+        "telegram",
+        "Save restricted content",
+        "bot"
+    ],
+    "repository": "https://github.com/vasusen-code/SaveRestrictedContentBot",
+    "website": "",
+    "success_url": "https://t.me/DroneBots",
+    "env": {
+        "API_HASH": {
+            "description": "Your API HASH from my.telegram.org",
+            "value": "18ada6caca53c648f3dd8276b57934ec"
+        },
+        "API_ID": {
+            "description": "Your API ID from my.telegram.org",
+            "value": "18952493"
+        },
+        "BOT_TOKEN": {
+            "description": "Bot token, get it from @BotFather.",
+            "value": "5472838925:AAHEYmCYigqYyl4TYv8DN2A_nipTIryTSJw"
+        },
+        "SESSION": {
+            "description": "Pyrogram string session.",
+            "value": "AQEhMS0AnwQk8KD7HEr_HAH53CXuIOsNbUQiJwXIIWR0Tsvzd9z8sNP21hYXKmMHyiE5e2GZ6z-yt_jrv5z69Qbg2TbeNUsuQoewv_yXFMYzb09xqUQDaeTFlQYzXY4LawPhILIcs4G5WOiQZSn7H0tQwPlMY8Mp200g3B2omJ3YqBDobcBmSgbM6nxdoL5zMbMBYwQg9jINWVLH9s3MiEFUkxs0HtSko-bgeJtj9Jtjs6JNkfN7_Dn4Oc2NyF8dL37NUKo61ad7KcghzKNCwH5DGQ_7R6v9D8Dl3zHlGfnFgQcNYf_NbUGTSz1ilzYVyLoeUEc0RlbHwFFZRi3m5TVWWb0q8QAAAAAoVU3OAA"
+        },
+        "AUTH": {
+            "description": "User ID of Bot owner.",
+            "value": "676679118"
+        },
+        "FORCESUB": {
+            "description": "Username name of public channel without using '@'.",
+            "value": "saverestrictedc"
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        },
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+        }
+    ]
+}
