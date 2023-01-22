@@ -4,4 +4,4 @@ COPY . .
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt -qq update && apt -qq install -y git python3 python3-pip ffmpeg apache2
 RUN pip3 install --no-cache-dir -r requirements.txt
-CMD ["bash","bash.sh"]
+CMD ["bash","run.sh"]
