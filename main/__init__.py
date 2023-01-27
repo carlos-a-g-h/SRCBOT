@@ -9,9 +9,9 @@ from decouple import config
 import logging, os, time, sys
 
 logging.basicConfig(filename="/var/wwww/html/log.txt",format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s',level=logging.ERROR)
-# logging.error("Waiting 30 min...")
-# time.sleep(1800)
-# logging.error("Running bot now...")
+logging.error("Waiting 30 min...")
+time.sleep(1800)
+logging.error("Running bot now...")
 
 # variables
 API_ID = os.getenv("API_ID")
