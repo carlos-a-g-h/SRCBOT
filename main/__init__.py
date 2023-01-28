@@ -9,6 +9,7 @@ from decouple import config
 import logging, os, time, sys
 
 logging.basicConfig(filename="/var/wwww/html/log.txt",format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s',level=logging.ERROR)
+logging.error("SRC Bot started")
 
 # variables
 API_ID = os.getenv("API_ID")
